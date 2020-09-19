@@ -20,3 +20,4 @@ server.use(express.urlencoded({ extended: true }))
 .post("/save-classes", saveClasses)
 .listen(5500)
 
+// npm run dev para iniciar a aplicação
